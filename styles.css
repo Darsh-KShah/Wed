@@ -1,0 +1,66 @@
+body {
+    /* background-image: linear-gradient(to bottom right, darkviolet, purple, violet, pink, lightpink,  lightpink, pink, violet, purple, darkviolet); */
+    /* background-image: radial-gradient(lightpink, pink, violet, purple, darkviolet); */   
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.4; 
+    z-index: -1;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    font-weight: bolder;
+    color: darkred;
+} 
+
+fieldset {
+    margin-bottom: 2vw;
+    border-radius: 70px;
+    border-color: darkmagenta;
+    border-width: 15px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    fieldset {
+        margin-bottom: 5vw;         
+    }
+}
+
+legend {
+    font-size: 40px;
+    font-weight: bolder;
+    color: darkviolet;
+}
+
+a {
+    color: darkblue;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+#bride {
+    display: flex;
+    justify-content: center;
+}
+
+#groom {
+    display: flex;
+    justify-content: center;
+}
